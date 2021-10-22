@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraScript
     - PlayerScript
+    - movement
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -26,6 +27,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -35,7 +42,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -59,38 +65,48 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 648}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 2220}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2802}
+      Script: {instanceID: 2644}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 3020}
+      Script: {instanceID: 2884}
     - Class: 114
-      Script: {instanceID: 3264}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 4226}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 4704}
+      Script: {instanceID: 4228}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 4706}
     - Class: 114
-      Script: {instanceID: 5546}
+      Script: {instanceID: 5082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -160,6 +176,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: movement
   - hash:
       serializedVersion: 2
       Hash: 59ce5902048c1041729c804e2772b2ce
@@ -288,7 +310,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+      Hash: 83e769eee07fc231384c812eedbb8224
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraScript
@@ -492,7 +514,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 4196c0820891fdb5b72dda79a18e4f56
+      Hash: a9b1fc5dc6c8b4b9d51c38dc7ebd3c46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
